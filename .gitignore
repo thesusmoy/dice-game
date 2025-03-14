@@ -1,0 +1,119 @@
+# Ignore all node_modules directories
+**/node_modules/
+
+# Ignore all .env files (environment variables)
+.env
+.env.local
+.env.development
+.env.test.local
+.env.production
+
+# Ignore dependency directories
+**/vendor/
+**/venv/
+**/.venv/
+
+# Ignore build artifacts
+**/build/
+**/dist/
+**/out/
+**/.next/
+**/.nuxt/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.pid
+*.pid.lock
+
+# Ignore Docker-related files
+**/docker-compose.override.yml
+**/docker-compose.dev.yml
+
+# Ignore Kubernetes-related files
+**/kubeconfig
+**/secrets.yaml
+
+# Ignore Python-specific files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.pyc
+**/*.egg-info/
+**/.pytest_cache/
+
+# Ignore Go-specific files
+**/bin/
+**/pkg/
+**/go.sum
+
+# Ignore frontend-specific files
+**/.cache/
+**/.parcel-cache/
+**/.eslintcache
+
+# Ignore compiled binaries
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+
+# Ignore coverage reports
+**/coverage/
+**/.nyc_output/
+
+# Ignore npm/yarn cache
+**/.npm
+**/.yarn
+**/.yarn-cache
+
+# Ignore Terraform files
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.backup
+
+# Ignore JetBrains IDE files
+**/*.iml
+**/*.ipr
+**/*.iws
+
+# Ignore macOS files
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+
+# Ignore Windows files
+**/[Dd]esktop.ini
+**/[Tt]humbs.db
+
+# Ignore backup files
+**/*.bak
+**/*.backup
+**/*.old
+
+# Ignore test artifacts
+**/test-results/
+**/junit.xml
+**/coverage.xml
+
+# Ignore local development files
+**/local/
+**/dev/
+**/tmp/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
